@@ -11,7 +11,7 @@ import "react-toastify/dist/ReactToastify.css";
 import ContactCard from "./components/ContactCard";
 import AddAndUpdateContact from "./components/AddAndUpdateContact";
 import useDisclouse from "./hooks/useDisclouse";
-import NotFoundContact from "./components/notFoundContact";
+import NotFoundContact from "./components/NotFoundContact";
 function App() {
   const [contacts, setContacts] = useState([]);
   const { onClose, isOpen, onOpen } = useDisclouse();
